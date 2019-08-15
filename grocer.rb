@@ -58,7 +58,7 @@ end
 
 def checkout(cart, coupons)
   cons_cart = consolidate_cart (cart)
-  cart =apply_coupons(, coupons)
-  bindi
-  cart =apply_clearance (cart)
+  cons_coup_cart =apply_coupons(cons_cart, coupons)
+  binding.pry
+  pen_cart =apply_clearance (cons_coup_cart)
 end
