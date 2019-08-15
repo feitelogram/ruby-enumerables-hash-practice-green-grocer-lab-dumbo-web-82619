@@ -62,6 +62,6 @@ def checkout(cart, coupons)
   cons_coup_cart =apply_coupons(cons_cart, coupons)
   pen_cart =apply_clearance (cons_coup_cart)
     pen_cart.each do |item|
+      binding.pry
     end
-  binding.pry 
 end
