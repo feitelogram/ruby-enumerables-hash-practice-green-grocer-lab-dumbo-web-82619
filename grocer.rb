@@ -64,4 +64,5 @@ def checkout(cart, coupons)
     binding.pry
     total += 
   end
+  end
 end
