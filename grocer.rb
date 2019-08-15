@@ -63,7 +63,6 @@ def checkout(cart, coupons)
   pen_cart =apply_clearance (cons_coup_cart)
     pen_cart.each do |item|
       total += pen_cart[pen_cart.keys[0]][:price]
-      binding.pry
     end
   if total > 100
     total = (total * 0.9).round(2)
