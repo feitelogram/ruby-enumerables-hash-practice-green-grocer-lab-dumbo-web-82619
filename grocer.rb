@@ -63,4 +63,5 @@ def checkout(cart, coupons)
   pen_cart.each do |item|
     binding.pry
     total += 
+  end
 end
